@@ -1,0 +1,59 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>👋 Hello, World!</h1>
+			<p>
+				Welcome to our vision for positively transforming the insurance industry.
+			</p>
+			<p>
+				At helloinsurance.dev, we believe in leveraging modern technology, thoughtful design, 
+				and industry expertise to create solutions for  
+				underwriting, claims, and customer servicing.
+				Although we show case our solution set in the context of Term Life insurance, based on our knowledge
+				and expertise in the industry, these ideas and solutions can be easily extended to 
+				P&C, LTC, E&S, Disability, and similar sectors.		
+				Through this blog, we aim to share our ideas, reference implementations, and solutions to 
+				inspire innovation within the insurance sector.
+			
+			</p>
+
+			<p>
+				Through this blog, we will be open-sourcing solutions like a premium rating engine (can be applied for commission calculation), 
+				underwriter workbench, claims desktop, servicing dashboard, B2C buying portal and much more. 
+				
+			</p>
+			<p>Here are a few ideas on how to get started with the template:</p>
+			<ul>
+				<li>Edit this page in <code>src/pages/index.astro</code></li>
+				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
+				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
+				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
+				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
+			</ul>
+			<p>
+				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
+					>read the docs
+				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
+			</p>
+			<p>
+				Looking for a blog template with a bit more personality? Check out <a
+					href="https://github.com/Charca/astro-blog-template"
+					>astro-blog-template
+				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
