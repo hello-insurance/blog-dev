@@ -6,7 +6,10 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
+// Extend the Props type to include `content`
+type Props = CollectionEntry<'blog'>['data'] & {
+  content: string;
+};
 
 const slugify = (str: string) => str
   .toLowerCase()
@@ -14,8 +17,13 @@ const slugify = (str: string) => str
   .replace(/[^a-z0-9]+/g, '-') // Replace non-alphanumeric with hyphens
   .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, content } = Astro.props;
 const url = new URL(`/blog/${slugify(title)}`, Astro.site).toString();
+
+// Calculate read time
+const wordsPerMinute = 200; // Average reading speed
+const wordCount = content.split(/\s+/g).length; // Count words in the blog post
+const readTime = Math.ceil(wordCount / wordsPerMinute); // Calculate read time in minutes
 
 ---
 
@@ -34,15 +42,20 @@ const url = new URL(`/blog/${slugify(title)}`, Astro.site).toString();
 				max-width: 100%;
 				margin: 0;
 			}
+		
 			.hero-image {
 				width: 100%;
 			}
+		
 			.hero-image img {
 				display: block;
 				margin: 0 auto;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
+				max-width: 740px;
+				height: auto;
 			}
+		
 			.prose {
 				width: 720px;
 				max-width: calc(100% - 2em);
@@ -50,23 +63,38 @@ const url = new URL(`/blog/${slugify(title)}`, Astro.site).toString();
 				padding: 1em;
 				color: rgb(var(--gray-dark));
 			}
+		
 			.title {
 				margin-bottom: 1em;
 				padding: 1em 0;
 				text-align: center;
-				line-height: 1;
+				line-height: 1.2; /* Adjusted for better readability */
 			}
+		
 			.title h1 {
 				margin: 0 0 0.5em 0;
+				font-size: 2.5em; /* Larger font size for emphasis */
+				font-weight: bold; /* Bold text for more impact */
+				color: rgb(var(--black)); /* Ensure title color is prominent */
 			}
+		
 			.date {
 				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
+				color: rgb(var(--gray)); /* Muted color for less emphasis */
+				font-size: 1em; /* Smaller size compared to the title */
+				display: flex;
+				justify-content: center; /* Center aligns the date and read time */
+				gap: 0.5em; /* Space between the date and read time */
+				align-items: center; /* Vertically aligns text and elements */
 			}
+		
 			.last-updated-on {
 				font-style: italic;
+				font-size: 0.9em;
+				color: rgb(var(--gray-dark));
 			}
 		</style>
+		
 	</head>
 
 	<body>
@@ -75,21 +103,22 @@ const url = new URL(`/blog/${slugify(title)}`, Astro.site).toString();
 			<article>
 				<div class="hero-image">
 					<!-- {heroImage && <img width={1020} height={510} src={heroImage} alt="" />} -->
-					{heroImage && <img width={1020} height={510} src={heroImage} alt={title || 'Blog Image'} />}
+					<!-- {heroImage && <img width={1020} height={510} src={heroImage} alt={title || 'Blog Image'} />} -->
+					{heroImage && <img style="max-width: 740px; height: auto;" src={heroImage} alt={title || 'Blog Image'} />}
+
 				</div>
 				<div class="prose">
 					<div class="title">
+						<h1>{title}</h1>
 						<div class="date">
 							<FormattedDate date={pubDate} />
-							{
-								updatedDate && (
-									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
-									</div>
-								)
-							}
+							<span> | {readTime} min read</span>
 						</div>
-						<h1>{title}</h1>
+						{updatedDate && (
+							<div class="last-updated-on">
+								Last updated on <FormattedDate date={updatedDate} />
+							</div>
+						)}
 						<hr />
 					</div>
 					<slot />
