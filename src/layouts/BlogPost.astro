@@ -25,6 +25,11 @@ const wordsPerMinute = 200; // Average reading speed
 const wordCount = content.split(/\s+/g).length; // Count words in the blog post
 const readTime = Math.ceil(wordCount / wordsPerMinute); // Calculate read time in minutes
 
+// Social sharing URLs
+const twitterUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`;
+const linkedinUrl = `https://www.linkedin.com/shareArticle?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`;
+const blueskyUrl = `https://bsky.app/intent/compose?text=${encodeURIComponent(`${title} - ${url}`)}`;
+
 ---
 
 <html lang="en">
@@ -93,6 +98,32 @@ const readTime = Math.ceil(wordCount / wordsPerMinute); // Calculate read time i
 				font-size: 0.9em;
 				color: rgb(var(--gray-dark));
 			}
+
+			.social-links {
+				display: flex;
+				gap: 0.7em;
+			}
+
+			.social-links a {
+				color: inherit;
+				text-decoration: none;
+				transition: opacity 0.3s ease;
+			}
+
+			.social-links a:hover {
+				opacity: 0.7;
+			}
+
+			.copy-url {
+				display: flex;
+				align-items: center;
+				gap: 0.7em;
+			}
+
+			.copy-url img {
+				width: 20px;
+				height: 20px;
+			}
 		</style>
 		
 	</head>
@@ -112,7 +143,25 @@ const readTime = Math.ceil(wordCount / wordsPerMinute); // Calculate read time i
 						<h1>{title}</h1>
 						<div class="date">
 							<FormattedDate date={pubDate} />
-							<span> | {readTime} min read</span>
+							<span> | {readTime} min read | </span>
+							<div class="social-links">
+								<a href={twitterUrl} target="_blank" rel="noopener noreferrer" aria-label="Share on X">
+									<img src="/icons/twitter.svg" alt="Share on X" width="20" height="20" />
+								</a>
+								<a href={linkedinUrl} target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">
+									<img src="/icons/linkedin.svg" alt="Share on LinkedIn" width="20" height="20" />
+								</a>
+								<a href={blueskyUrl} target="_blank" rel="noopener noreferrer" aria-label="Share on Bluesky">
+									<img src="/icons/bluesky.svg" alt="Share on Bluesky" width="20" height="20" />
+								</a>
+								<button 
+									class="copy-url" 
+									onclick="navigator.clipboard.writeText(window.location.href).then(() => alert('URL copied to clipboard!')).catch(err => console.error('Failed to copy URL:', err))"
+								>
+									<img src="/icons/link.svg" alt="Copy URL" />
+								</button>
+							
+							</div>
 						</div>
 						{updatedDate && (
 							<div class="last-updated-on">
