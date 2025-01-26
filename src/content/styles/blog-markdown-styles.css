@@ -1,0 +1,108 @@
+/* Global Styles (e.g., styles.css) */
+/* Scoped styles for all blog posts */
+
+.blog-post table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.blog-post table th,
+.blog-post table td {
+  border: 1px solid #2f2e2e;
+  padding: 8px;
+  text-align: left;
+}
+
+.blog-post table th {
+  background-color: #4e4e4e;
+  color: white;
+  font-weight: bold;
+}
+
+.blog-post h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.blog-post h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 0.5em;
+}
+
+.blog-post h3 {
+  font-size: 1.75rem;
+  font-weight: semi-bold;
+  color: #555;
+  margin-bottom: 0.5em;
+}
+
+/* Scoped styles for all blog posts */
+
+/* h4 - Subsection Header */
+.blog-post h4 {
+  font-size: 1.5rem; /* Slightly smaller than h3 */
+  /* font-weight: bold; */
+  color: #666; /* Muted color compared to h3 */
+  margin-top: 1.2em; /* Space before the heading */
+  margin-bottom: 0.8em; /* Space after the heading */
+  border-bottom: 1px solid #ddd; /* Optional underline for clarity */
+  padding-bottom: 0.2em; /* Space between text and underline */
+}
+
+/* h5 - Minor Subsection Header */
+.blog-post h5 {
+  font-size: 1.25rem; /* Smaller than h4 */
+  /* font-weight: semi-bold; */
+  color: #777; /* Even more muted */
+  margin-top: 1em; /* Space before the heading */
+  margin-bottom: 0.6em; /* Space after the heading */
+}
+
+/* h6 - Smallest Header */
+.blog-post h6 {
+  font-size: 1rem; /* Matches body text but still bold */
+  /* font-weight: bold; */
+  color: #888; /* Lightest color */
+  margin-top: 0.8em; /* Space before the heading */
+  margin-bottom: 0.5em; /* Space after the heading */
+  font-style: italic; /* Optional to distinguish from body text */
+}
+
+/* General link styles */
+.blog-post a {
+  color: #1a73e8; /* A blue color similar to traditional hyperlink blue */
+  text-decoration: underline; /* Ensures links are underlined */
+  font-weight: 500; /* Slightly bold for visibility */
+  transition: color 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Hover state for links */
+.blog-post a:hover {
+  color: #174ea6; /* Darker shade of blue for hover */
+  text-decoration: none; /* Optional: remove underline on hover */
+}
+
+/* Blockquote styles for blog posts */
+.blog-post blockquote {
+  /* Blue bar on the left */
+  /* border-left: 4px solid #1a73e8;  */
+  padding: 1em;
+  margin: 1em 0;
+  background-color: #f9f9f9; /* Light gray background */
+  font-style: italic; /* Optional: Make the text italic */
+  color: #555; /* Slightly muted text color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.blog-post blockquote p {
+  margin: 0; /* Remove default margin from paragraphs inside blockquote */
+}
+
+.blog-post blockquote strong {
+  color: #333; /* Make strong elements within blockquotes stand out */
+}
