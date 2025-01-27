@@ -31,6 +31,7 @@
   font-size: 2rem;
   font-weight: bold;
   color: #444;
+  margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
@@ -38,6 +39,7 @@
   font-size: 1.75rem;
   font-weight: semi-bold;
   color: #555;
+  margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
@@ -50,7 +52,8 @@
   color: #666; /* Muted color compared to h3 */
   margin-top: 1.2em; /* Space before the heading */
   margin-bottom: 0.8em; /* Space after the heading */
-  border-bottom: 1px solid #ddd; /* Optional underline for clarity */
+  /* Optional underline for clarity */
+  /* border-bottom: 1px solid #ddd;  */
   padding-bottom: 0.2em; /* Space between text and underline */
 }
 

@@ -22,7 +22,12 @@ There are tons of established resources that can provide in-depth educational co
 > It originated in ancient times, with evidence of early systems of insurance traced back to Babylonian, Chinese, and Indian traders who used methods to distribute risk during their ventures. Modern insurance developed in the 17th century, particularly with the establishment of marine insurance in England to protect merchants and shipowners.
 
 
-### Types of insurance
+---
+
+### (Some) Types of Insurance
+
+The table below outlines key types of insurance, their coverage rates, and other relevant notes. It highlights the diverse insurance landscape, ranging from personal to specialized coverages.
+
 
 | Insurance Type                | Coverage Rate         | Notes                                           | Source |
 |-------------------------------|-----------------------|-------------------------------------------------|--------|
@@ -43,8 +48,10 @@ There are tons of established resources that can provide in-depth educational co
 | Accident Insurance             | 20% (2022)            | Of adults                                      | LIMRA [15] |
 | Mortgage Insurance             | 35% (2022)            | Of homeowners                                   | Urban Institute [16] |
 | Income Protection Insurance     | 20% (2022)            | Of working adults                               | Council for Disability Awareness [17] |
+| Excess & Surplus (E&S) Insurance	| N/A	                | Covers high-risk or unique risks that standard insurers won't cover | 	Wholesale & Specialty Insurance Association [18] |
 
 Sources:
+
 [1] https://www.census.gov/library/publications/2023/demo/p60-278.html  
 [2] https://www.insurance-research.org/  
 [3] https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance  
@@ -62,24 +69,25 @@ Sources:
 [15] https://www.limra.com/en/newsroom/industry-trends/2022/limra-life-insurance-coverage-gap-grows-to-12-trillion/  
 [16] https://www.urban.org/research/publication/mortgage-insurance-coverage-and-costs  
 [17] https://disabilitycanhappen.org/  
+[18] https://www.iii.org/press-release/excess-and-surplus-lines-see-growth-in-recent-years-due-to-admitted-markets-pulling-back-or-exiting-markets-triple-i-092324
 
 
-## Life Insurance
+## Double-Clicking Life Insurance
 
-Life Insurance is a contract between an individual and an insurer, where the insurer pays a lump sum (death benefit) to beneficiaries upon the insured’s death, in exchange for regular premium payments.
+Life Insurance is a contract between an individual and an insurer, where the insurer pays a 
+lump sum (death benefit) to beneficiaries upon the insured's death, in exchange for regular premium payments.
 
-### Need for Life Insurance
+### Why Buy Life Insurance
 
-- **Income Replacement**: Supports dependents financially.
-- **Debt Protection**: Pays off outstanding loans.
-- **Final Expenses**: Covers funeral and medical costs.
-- **Education**: Secures children’s future education.
-- **Estate Planning**: Manages taxes and wealth transfer.
-- **Business Protection**: Ensures business continuity.
-- **Peace of Mind**: Guarantees financial security for loved ones.
+- Income Replacement: Provides financial support to dependents after the insured's passing.
+- Debt Protection: Pays off outstanding loans, such as mortgages or credit card debt.
+- Final Expenses: Covers costs associated with funerals, burials, and medical bills.
+- Education: Secures funding for children's future education.
+- Estate Planning: Assists in managing estate taxes and ensures a smooth wealth transfer.
+- Business Protection: Ensures business continuity by funding buy-sell agreements or key person insurance.
+- Peace of Mind: Offers the insured and their loved ones financial security in times of uncertainty.
 
-
-## Types of Life Insurance
+### Types of Life Insurance
 
 | Type of Life Insurance      | Purpose                                      | Key Differences                                           |
 |-----------------------------|----------------------------------------------|----------------------------------------------------------|
@@ -104,96 +112,78 @@ This document provides an overview of the different types of term life insurance
 | Return of Premium (ROP) Term | Refunds premiums if the policyholder outlives the term. | Getting premiums back if the policy isn’t used. |
 | Annual Renewable Term (ART) | One-year coverage, renewable annually with increasing premiums. | Short-term coverage or flexible insurance needs. |
 
-### Additional Information
 
-Each type of term life insurance offers unique benefits and is designed to meet different financial needs and goals. Consider your current and future financial obligations when choosing the right type of term life insurance. Consulting with an insurance advisor can provide personalized guidance based on your specific situation.
+### Term Life Insurance: Key Factors
 
-
-## Term Life Insurance: Key Factors
-
-### Coverage Period
+#### Coverage Period
 - Fixed duration (10, 20, 30 years)
 - No payout if the policyholder outlives the term
 - Choose term length based on specific needs (e.g., until mortgage is paid off or children graduate)
 
-### Premium Structure
-- Lower than permanent life insurance
-- Two premium options:
-  - Level premium: Stays fixed throughout the term
-  - Increasing premium: Starts lower but increases over time
-- Rates depend on:
-  - Age
-  - Health condition
-  - Coverage amount
-  - Term length
+#### Premium Structure
+- Usually lower than other types of life insurance
+- Rates depend on Age, Health, Term Length, and Coverage amount
 
-### Death Benefit
+#### Death Benefit
 - Guaranteed lump sum payment to beneficiaries
 - Paid only if death occurs during the policy term
 - Tax-free benefit to beneficiaries
-- Can be used for:
-  - Living expenses
-  - Debt repayment
-  - Education costs
-  - Final expenses
 
-### Renewability & Conversion Options
-- **Renewability**: Option to extend coverage without new medical exam
+<!-- #### Renewability & Conversion Options
+- Renewability: Option to extend coverage without new medical exam
   - Usually comes with higher premiums
   - Valuable if health deteriorates
-- **Conversion**: Option to convert to permanent insurance
+- Conversion: Option to convert to permanent insurance
   - No medical exam required
   - Must convert within specified timeframe
-  - Useful for changing insurance needs
+  - Useful for changing insurance needs -->
 
-### No Cash Value Component
+#### No Cash Value Component
 - Pure death benefit protection
 - No savings or investment component
 - No surrender value if cancelled
 - Premium payments only cover insurance cost
 
-### Affordability Factors
+<!-- 
+#### Affordability Factors
 - Most cost-effective life insurance option
 - Lower premiums for:
   - Younger applicants
   - Healthy individuals
   - Non-smokers
-  - Lower coverage amounts
+  - Lower coverage amounts -->
 
-### Customization Options
-Available riders for enhanced coverage:
-- Critical illness coverage
-- Accidental death benefit
-- Disability waiver of premium
-- Return of premium
-- Child rider
 
-### Best Suited For
+#### Term life generally suited For
+
 - Young families needing income replacement
 - Homeowners with mortgages
 - Parents planning for children's education
 - Business owners with temporary coverage needs
 - Anyone needing high coverage at affordable rates
 
-#### Example Scenarios
-1. **New Parents**
+
+##### Example Scenarios
+1. New Parents
    - 30-year term to cover children through college
    - Coverage amount based on income replacement needs
 
-2. **Homeowners**
+2. Homeowners
    - 15 or 30-year term matching mortgage length
    - Coverage amount equal to mortgage balance
 
-3. **Business Owners**
+3. Business Owners
    - Term length matching business loans
    - Coverage for buy-sell agreements
 
 
-## Life Insurance Riders
+### Life Insurance Riders
 
-A rider is an optional add-on to your life insurance policy that provides additional benefits or coverage. Here's a comprehensive guide to common life insurance riders:
+In insurance, you customize a policy with options which is referred to as a rider. 
+It is an additional provision or amendment to an existing insurance policy that provides 
+extra benefits, modifies coverage, or adjusts terms to meet specific needs.
 
-### Common Types of Riders
+#### Common Types of Riders
 
 | Rider Type | Purpose/Usage | Best For |
 |------------|--------------|-----------|
@@ -209,9 +199,9 @@ A rider is an optional add-on to your life insurance policy that provides additi
 | Family Income Benefit | Monthly income stream to beneficiaries | Young families |
 
 
-## Key Parties in Life Insurance
+### Key Parties in Life Insurance
 
-### Primary Parties
+#### Primary Parties
 
 | Party | Also Known As | Role | Example |
 |-------|--------------|------|----------|
@@ -220,7 +210,7 @@ A rider is an optional add-on to your life insurance policy that provides additi
 | Insured | Life Assured, Covered Person | Person whose life is insured | Policy owner or family member |
 | Beneficiary | Claimant, Recipient | Receives death benefit upon insured's death | Family member, trust |
 
-### Insurance Professionals
+#### Insurance Professionals (Major roles)
 
 | Professional | Alternative Title | Role | Example |
 |--------------|------------------|------|----------|
@@ -228,15 +218,10 @@ A rider is an optional add-on to your life insurance policy that provides additi
 | Insurance Broker | Independent Agent | Represents clients across multiple insurers | Independent broker |
 | Underwriter | Risk Assessor | Evaluates applications, sets premiums | Insurance company employee |
 | Medical Examiner | Paramedical Examiner | Conducts health examinations | Contracted healthcare professional |
-
-### Supporting Roles
-
-| Role | Alternative Title | Function | Example |
-|------|------------------|----------|----------|
 | Reinsurer | Risk Transfer Company | Shares insurer's risk | Swiss Re, Munich Re |
 | Claims Adjuster | Loss Adjuster | Processes and investigates claims | Company or third-party adjuster |
 | Actuary | Risk Analyst | Calculates risk and premiums | Insurance company employee |
-| Loss Control Consultant | Risk Consultant | Advises on risk reduction | Internal/external consultant |
+
 
 ### Specialized Brokers
 
@@ -246,28 +231,28 @@ A rider is an optional add-on to your life insurance policy that provides additi
 | Wholesale Broker | Market Access | Works with retail brokers | Agents and brokers |
 | Surplus Lines Broker | High-Risk Coverage | Handles non-standard risks | Specialized cases |
 
-### Management Roles
+<!-- ### Management Roles
 
 | Position | Alternative Title | Responsibility | Oversight |
 |----------|------------------|----------------|-----------|
 | Actuarial Manager | Senior Actuary | Oversees risk models | Pricing and reserves |
-| Agency Manager | Branch Manager | Leads insurance agency | Sales and operations |
+| Agency Manager | Branch Manager | Leads insurance agency | Sales and operations | -->
 
 ### Key Relationships
 
 #### Direct Relationships
-- **Agent/Broker ↔ Insurer**
+- Agent/Broker <-> Insurer
   - Agents represent insurers
   - Brokers represent clients
 
 #### Policy Relationships
-- **Policyholder = Insured**
+- Policyholder = Insured
   - When someone buys insurance for themselves
-- **Policyholder ≠ Insured**
+- Policyholder != Insured
   - When buying insurance for others (e.g., parent for child)
 
 #### Broker Relationships
-- **Retail Broker → Client**
+- Retail Broker -> Client
   - Direct client interaction
-- **Wholesale Broker → Retail Broker**
+- Wholesale Broker -> Retail Broker
   - Intermediary services

@@ -9,4 +9,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
     site: 'https://www.helloinsurance.dev',
     integrations: [mdx(), sitemap(), tailwind()],
+    markdown: {
+        smartypants: false,
+      }
 });
