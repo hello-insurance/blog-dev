@@ -7,7 +7,9 @@ heroImage: "/blog-images/blog-insurance-systems.jpg"
 
 ## Insurance Ecosystem Overview
 
-The insurance industry relies on a diverse range of interconnected systems to ensure efficient operations and provide high-quality services to all stakeholders. Below is a description of each system in the insurance ecosystem. These systems are listed in no particular order of importance, and most are described from the perspective of an insurance carrier:
+The insurance industry relies on a diverse range of interconnected systems to ensure efficient operations and provide high-quality services to all stakeholders. Below is a description of each system in the insurance ecosystem. These systems are listed in no particular order of importance, and most are described from the perspective of an insurance carrier.
+
+Not all these systems exist as standalone entities; depending on the carrier's focus and line of business, some may function as features or modules within a larger system. Core systems generally include Underwriting Workbench, Policy Administration, Claims Management, Producer Management, Customer Servicing, Actuarial Systems, and Analytics. Everything else is either a subsystem or a supporting system under one of these.
 
 ### 1. Agency Management
 
