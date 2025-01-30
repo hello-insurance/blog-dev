@@ -12,7 +12,7 @@ export default defineConfig({
     markdown: {
         smartypants: false,
       },
-    //   redirects: {
-    //     '/blog': 'https://helloinsurance.substack.com',
-    // }
+      redirects: {
+        '/blog': 'https://helloinsurance.substack.com',
+    }
 });
